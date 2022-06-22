@@ -1,0 +1,143 @@
+/* ------------------ */
+/* Root               */
+/* ------------------ */
+
+:root {
+
+  --clr-light: hsl(338, 100%, 44%);
+  --clr-dark: hsl(200, 7%, 8%);
+
+/* Font families */
+
+  --ff-serif: 'Questrial', sans-serif;
+
+/* Font sizes */
+
+  --fs-400: 1.25rem;
+}
+
+/* ------------------ */
+/* Reset              */
+/* ------------------ */
+
+/* Box sizing */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Reset Margins */
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+figure,
+picture {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+    font-weight: 400;
+}
+
+/* Body */
+
+body {
+  min-height: 100vh;
+  position: relative;
+  background-color: var(--clr-dark);
+  font-size: var(--fs-400);
+  font-family: var(--ff-serif);
+  color: var(--clr-light);
+  text-align: center;
+}
+
+.container {
+  padding: 0 1rem;
+}
+
+.logo {
+  width: 130px;
+  height: 130px;
+  margin-top: 3%;
+  margin-bottom: 2%;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.links > a {
+  max-width: 390px;
+  display: block;
+  color : var(--clr-light);
+  border: 0.13em solid var(--clr-light);
+  padding: 0.625rem 1.25rem;
+  margin: 0 auto 3.5rem;
+  text-decoration: none;
+  margin-top: 2.5rem;
+  letter-spacing: 0.125rem;
+  transition: .2s ease-in-out;
+}
+
+h2, p {
+  padding: 0.2em;
+}
+
+.description {
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+}
+h2 {
+  font-weight: bold;
+  font-size: 2.2rem;
+}
+
+.links > a:hover, 
+.links > a:active {
+  background-color: var(--clr-light);
+  color: var(--clr-dark);
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
