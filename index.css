@@ -87,7 +87,7 @@ body {
   text-decoration: none;
   margin-top: 2.5rem;
   letter-spacing: 0.125rem;
-  transition: .2s ease-in-out;
+  transition: .1s ease-in-out;
 }
 
 .links > a:hover, 
